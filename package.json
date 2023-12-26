@@ -1,0 +1,31 @@
+{
+  "name": "personal-crm-roam",
+  "version": "1.0.0",
+  "description": "A Personal CRM system built inside Roam Research",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/personal-crm-roam.git"
+  },
+  "keywords": [
+    "roam",
+    "crm",
+    "personal",
+    "google-calendar",
+    "apple-integration"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourusername/personal-crm-roam/issues"
+  },
+  "homepage": "https://github.com/yourusername/personal-crm-roam#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "googleapis": "^59.0.0",
+    "node-cron": "^2.0.3"
+  }
+}
